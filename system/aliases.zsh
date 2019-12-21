@@ -3,8 +3,12 @@
 #   `brew install coreutils`
 if $(gls &>/dev/null)
 then
-  alias ls="gls -F --color"
-  alias l="gls -lAh --color"
-  alias ll="gls -l --color"
-  alias la='gls -A --color'
+  alias ll="exa -lG"
+  alias la="exa -alG"
+  alias ls="exa -G"
+  alias l="exa -lAh"
+  alias lh="exa -ld .?*" # list only hidden files
+  alias c="clear"
+  alias procs="top -u -s5"
+  alias version="sw_vers"
 fi
