@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# Change hostname to something random. 
+#
+
+# change fully-qualified hostname
+sudo scutil --set HostName $(openssl rand -hex 16)
+# change local network hostname
+sudo scutil --set LocalHostName $(openssl rand -hex 16)
+# change computer name
+sudo scutil --set ComputerName $(openssl rand -hex 16)
+# flush DNS cache
+dscacheutil -flushcache
