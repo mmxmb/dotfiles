@@ -6,4 +6,4 @@ alias dcleanc='printf "\n>>> Deleting stopped containers\n\n" && docker rm $(doc
 # Delete all untagged images.
 alias dcleani='printf "\n>>> Deleting untagged images\n\n" && docker rmi $(docker images -q -f dangling=true)'
 # Delete all stopped containers and untagged images.
-alias dclean='dcleanc || true && dleani'
+alias dclean='dcleanc || true && dcleani'
