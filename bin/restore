@@ -2,4 +2,4 @@
 #
 # Restores tmux session
 #
-tmux -CC a
+tmux -CC new -A -s mmxmb
