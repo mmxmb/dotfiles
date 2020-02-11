@@ -66,6 +66,12 @@ nmap <Leader>dd :Diary<CR>
 
 " }}}
 
+" {{{ Copy-Paste
+"
+" Toggle between paste-nopaste
+nmap <Leader>pp :set paste! paste?<CR>
+" }}}
+
 " {{{ Backups and undo
 
 " Protect changes between writes. Default values of
