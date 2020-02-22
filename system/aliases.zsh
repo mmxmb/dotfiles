@@ -10,4 +10,3 @@ fi
 alias c="clear"
 alias procs="top -u -s5"
 alias version="sw_vers"
-alias mkcd='mkdir $1 && cd $1'
