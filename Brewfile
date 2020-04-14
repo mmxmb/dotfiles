@@ -20,6 +20,7 @@ brew 'tmux'
 brew 'tree'
 brew 'wget'
 brew 'youtube-dl'
+brew 'ffmpeg'
 
 cask 'docker'
 cask 'firefox'
