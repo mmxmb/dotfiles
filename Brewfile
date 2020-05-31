@@ -21,6 +21,7 @@ brew 'tree'
 brew 'wget'
 brew 'youtube-dl'
 brew 'ffmpeg'
+brew 'syncthing'
 
 cask 'docker'
 cask 'firefox'
