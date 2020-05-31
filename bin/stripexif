@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Delete all meta information from an image
+#
+# USAGE:
+#
+#   $ stripexif IMG123.jpg
+#
+exiftool -all= "$@"

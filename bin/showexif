@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Print all meta information in an image, including duplicate and
+# unknown tags, sorted by group (for family 1).
+#
+# USAGE:
+#
+#   $ showexif IMG123.jpg
+#
+exiftool -a -u -g1 "$@"
