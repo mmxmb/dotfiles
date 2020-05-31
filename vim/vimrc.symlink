@@ -141,8 +141,8 @@ nmap <C-H> <C-W><C-H>
 
 " {{{ VimWiki settings
 
-" Use markdown in vimwiki but leave extension as default
-let g:vimwiki_list = [{'path': '~/Google Drive/vimwiki/', 'syntax': 'markdown', 'ext': '.wiki'}]
+" Use markdown in vimwiki and change extension
+let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
 
 " Open vimwiki diary index using Diary command and auto generate entries list
 command! Diary VimwikiDiaryIndex
