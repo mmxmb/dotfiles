@@ -22,6 +22,7 @@ brew 'wget'
 brew 'youtube-dl'
 brew 'ffmpeg'
 brew 'syncthing'
+brew 'iproute2mac'
 
 cask 'docker'
 cask 'firefox'
