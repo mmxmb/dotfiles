@@ -23,7 +23,6 @@ brew 'youtube-dl'
 brew 'ffmpeg'
 brew 'syncthing'
 brew 'iproute2mac'
-brew 'google-cloud-sdk'
 
 cask 'docker'
 cask 'firefox'
