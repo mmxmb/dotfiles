@@ -1,0 +1,27 @@
+#!/bin/sh
+#
+# Calculate integrity digest of a file.
+#
+# Available digest algorithms:
+#   - SHA1
+#   - SHA256
+#   - MD5
+#
+# USAGE:
+#
+#   $ dgst sha256 IMG123.jpg
+#
+case "$1" in
+  sha256)
+    openssl dgst -sha256 $2
+    ;;
+  sha1)
+    openssl dgst -sha1 $2
+    ;;
+  md5)
+    openssl dgst -md5 $2
+    ;;
+  *)
+    echo "Unknown digest algorithm. See options of "openssl dgst" for more."
+    exit 1
+esac
