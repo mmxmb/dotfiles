@@ -143,6 +143,9 @@ install_dotfiles
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
 then
+  echo 'Increase keyboard repeat rate (takes effect after reboot)'
+  defaults write NSGlobalDomain KeyRepeat -int 0
+
   info "installing dependencies"
   if source bin/dot | while read -r data; do info "$data"; done
   then
@@ -151,6 +154,7 @@ then
     fail "error installing dependencies"
   fi
 fi
+
 
 echo ''
 echo '  All installed!'
