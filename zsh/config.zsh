@@ -1,9 +1,6 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 
-export HOMEBREW_NO_INSECURE_REDIRECT=1
-export HOMEBREW_CASK_OPTS=--require-sha
-
 fpath=($ZSH/functions $fpath)
 
 autoload -U $ZSH/functions/*(:t)
