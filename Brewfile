@@ -23,6 +23,7 @@ brew 'youtube-dl'
 brew 'ffmpeg'
 brew 'syncthing'
 brew 'iproute2mac'
+brew 'duti'
 
 cask 'docker'
 cask 'firefox'
