@@ -24,6 +24,7 @@ brew 'ffmpeg'
 brew 'syncthing'
 brew 'iproute2mac'
 brew 'duti'
+brew 'imagemagick'
 
 cask 'docker'
 cask 'firefox'
