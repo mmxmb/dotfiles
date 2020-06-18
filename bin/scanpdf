@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# Make PDF look scanned
+# Source: https://news.ycombinator.com/item?id=23160387
+#
+# USAGE:
+#
+#   $ scanpdf original.pdf
+#
+# PREREQUISITES:
+#
+#   imagemagick
+#
+if [ "${1: -4}" != ".pdf" ]; then
+  echo "Expecting a PDF document with .pdf file extension"
+  exit 1
+fi
+convert -density 150 "$1" -colorspace gray -linear-stretch 3.5%x10% -blur 0x0.5 -attenuate 0.25 +noise Gaussian -rotate 0.5 temp.pdf
+gs -dSAFER -dBATCH -dNOPAUSE -dNOCACHE -sDEVICE=pdfwrite -sColorConversionStrategy=LeaveColorUnchanged -dAutoFilterColorImages=true -dAutoFilterGrayImages=true -dDownsampleMonoImages=true -dDownsampleGrayImages=true -dDownsampleColorImages=true -sOutputFile=scanned.pdf temp.pdf
+rm temp.pdf
