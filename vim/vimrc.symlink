@@ -54,7 +54,7 @@ nmap <leader><space> :nohlsearch<CR>
 " https://github.com/junegunn/fzf/blob/master/README-VIM.md
 set rtp+=/usr/local/opt/fzf
 " Search for file with fzf in cwd
-nmap <C-h> :Files<CR>
+nmap <C-p> :Files<CR>
 " Search for content inside files
 nmap <C-g> :Rg<Cr>
 
