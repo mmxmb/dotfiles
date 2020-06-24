@@ -25,6 +25,7 @@ brew 'syncthing'
 brew 'iproute2mac'
 brew 'duti'
 brew 'imagemagick'
+brew 'hugo'
 
 cask 'docker'
 cask 'firefox'
