@@ -33,3 +33,6 @@
         default = simple
 [credential]
 	helper = osxkeychain
+[user]
+	name = mmxmb
+	email = 22385215+mmxmb@users.noreply.github.com

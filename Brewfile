@@ -26,6 +26,7 @@ brew 'iproute2mac'
 brew 'duti'
 brew 'imagemagick'
 brew 'hugo'
+brew 'fd'
 
 cask 'docker'
 cask 'firefox'
