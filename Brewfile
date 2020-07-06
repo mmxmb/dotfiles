@@ -27,6 +27,7 @@ brew 'duti'
 brew 'imagemagick'
 brew 'hugo'
 brew 'fd'
+brew "highlight"
 
 cask 'docker'
 cask 'firefox'
