@@ -3,7 +3,7 @@ then
   alias ll="exa -lG"
   alias la="exa -alG"
   alias ls="exa -G"
-  alias l="exa -lAh"
+  alias l="exa -lah"
   alias lh="exa -ld .?*" # list only hidden files
 fi
 
