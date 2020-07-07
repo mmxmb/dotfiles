@@ -50,6 +50,7 @@ set incsearch                  " Search as characters are entered
 set hlsearch                   " Highlight matches
 " Turn off search highlight
 nmap <leader><space> :nohlsearch<CR>
+
 " Enable fzf as vim plugin
 " https://github.com/junegunn/fzf/blob/master/README-VIM.md
 set rtp+=/usr/local/opt/fzf
