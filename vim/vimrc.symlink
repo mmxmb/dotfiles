@@ -6,6 +6,7 @@ filetype off                      " Disable filetype detection; required by Vund
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
+" use :PluginInstall to install
 "call vundle#begin('~/some/path/here')
 
 Plugin 'VundleVim/Vundle.vim'     " let Vundle manage Vundle, required
@@ -14,6 +15,7 @@ Plugin 'scrooloose/nerdcommenter' " Commenting shortcuts
 Plugin 'vimwiki/vimwiki'          " My own wiki
 Plugin 'sjl/gundo.vim'            " Graphical undo tree
 Plugin 'junegunn/fzf.vim'         " FZF inside vim
+Plugin 'fatih/vim-go'
 
 " All of Plugins must be added before the following line
 call vundle#end()                 " required
@@ -132,7 +134,7 @@ nmap <leader>u :GundoToggle<CR>
 
 " More convenient NERDTree acccess
 nmap <Leader>nn :NERDTree<CR> 
-" Easier navigation between splits 
+" Easier navigation between splits CTRL-J/K/L/H
 nmap <C-J> <C-W><C-J>
 nmap <C-K> <C-W><C-K>
 nmap <C-L> <C-W><C-L>
