@@ -52,3 +52,6 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 # Homebrew security options
 export HOMEBREW_CASK_OPTS=--require-sha
 export HOMEBREW_NO_INSECURE_REDIRECT=1
+
+# GOPATH
+export PATH=$PATH:$(go env GOPATH)/bin

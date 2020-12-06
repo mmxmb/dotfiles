@@ -15,7 +15,7 @@ Plugin 'scrooloose/nerdcommenter' " Commenting shortcuts
 Plugin 'vimwiki/vimwiki'          " My own wiki
 Plugin 'sjl/gundo.vim'            " Graphical undo tree
 Plugin 'junegunn/fzf.vim'         " FZF inside vim
-Plugin 'fatih/vim-go'
+Plugin 'fatih/vim-go'             " Go language support
 
 " All of Plugins must be added before the following line
 call vundle#end()                 " required
