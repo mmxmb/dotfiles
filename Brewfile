@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 brew 'awscli'
+brew 'borgbackup'
 brew 'exa'
 brew 'exiftool'
 brew 'fzf'
