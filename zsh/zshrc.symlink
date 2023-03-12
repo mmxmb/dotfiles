@@ -45,3 +45,15 @@ export HOMEBREW_NO_INSECURE_REDIRECT=1
 
 # GOPATH
 export PATH=$PATH:$(go env GOPATH)/bin
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+#eval "$(atuin init zsh)"
+
+export PATH=$PATH:$HOME/.cargo/bin
+
+# foundry
+export PATH="$PATH:/Users/mmxmb/.foundry/bin"
+
+# poetry
+export PATH="/Users/mmxmb/.local/bin:$PATH"

@@ -18,6 +18,7 @@ Plugin 'junegunn/fzf.vim'         " FZF inside vim
 Plugin 'fatih/vim-go'
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
+Plugin 'tomlion/vim-solidity'
 
 " All of Plugins must be added before the following line
 call vundle#end()                 " required
@@ -147,7 +148,7 @@ nmap <C-H> <C-W><C-H>
 " {{{ VimWiki settings
 
 " Use markdown in vimwiki and change extension
-let g:vimwiki_list = [{'path': '~/Google\ Drive/My\ Drive/vimwiki', 'syntax': 'markdown', 'ext': '.md', 'auto_diary_index': 1}]
+let g:vimwiki_list = [{'path': '~/vimwiki', 'syntax': 'markdown', 'ext': '.md', 'auto_diary_index': 1}]
 
 " Open vimwiki diary index using Diary command and auto generate entries list
 command! Diary VimwikiDiaryIndex

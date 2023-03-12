@@ -877,7 +877,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "3.0.4",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "bca9acf58e70e52cd8d0186c7b73391db2262bd9",
+        "Homebrew/homebrew-core": "e7a0594e746a6024dc3525ee12b0c9a14fdd55d3",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.3",
         "macOS": "10.14.6"

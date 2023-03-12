@@ -1,5 +1,0 @@
-#!/bin/sh
-#
-# Restores tmux session
-#
-tmux -CC new -A -s mmxmb
