@@ -15,7 +15,7 @@ if [ -d "work" ]; then
 fi
 if [ -d "home" ]; then
   echo "› brew bundle --file home/Brewfile"
-  #brew bundle --file home/Brewfile
+  brew bundle --file home/Brewfile
 fi
 
 # find the installers and run them iteratively
