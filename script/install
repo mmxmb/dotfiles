@@ -9,6 +9,17 @@ cd "$(dirname $0)"/..
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
 brew bundle
+if [ -d "work" ]; then
+  echo "› brew bundle --file work/Brewfile"
+  brew bundle --file work/Brewfile
+fi
+if [ -d "home" ]; then
+  echo "› brew bundle --file home/Brewfile"
+  #brew bundle --file home/Brewfile
+fi
 
 # find the installers and run them iteratively
-find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
+for installer in $(find . -name install.sh)
+do
+  sh -c "${installer}"
+done

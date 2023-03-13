@@ -13,7 +13,7 @@ then
     # Ensure you have a proper compilation toolchain
     info 'Installing Delve'
     xcode-select --install
-    go get -u github.com/go-delve/delve/cmd/dlv
+    go install github.com/go-delve/delve/cmd/dlv@latest
     success 'Installed Delve'
     info 'Enable Developer Mode if you do not want to be asked for authorization every time'
     echo 'sudo /usr/sbin/DevToolsSecurity -enable'

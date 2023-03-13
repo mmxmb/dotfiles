@@ -10,3 +10,6 @@ fi
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
+
+# Enable Developer Mode
+sudo /usr/sbin/DevToolsSecurity -enable

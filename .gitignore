@@ -1,2 +1,4 @@
 git/gitconfig.local.symlink
 work/
+home/
+Brewfile.lock

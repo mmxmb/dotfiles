@@ -163,3 +163,4 @@ augroup end
 set modelines=1
 " vim:foldmethod=marker:foldlevel=0
 
+set rtp+=/opt/homebrew/opt/fzf " use fzf in vim
