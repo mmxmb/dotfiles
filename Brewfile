@@ -3,7 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 brew 'awscli'
-brew 'exa'
+brew 'eza'
 brew 'exiftool'
 brew 'fzf' # $(brew --prefix)/opt/fzf/install
 brew 'go'
@@ -19,7 +19,5 @@ brew 'tree'
 brew 'wget'
 
 cask 'docker'
-cask '1password'
 cask 'iterm2'
-cask 'visual-studio-code'
 cask 'rectangle'

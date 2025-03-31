@@ -1,10 +1,10 @@
-if $(exa &>/dev/null)
+if $(eza &>/dev/null)
 then
-  alias ll="exa -lG"
-  alias la="exa -alG"
-  alias ls="exa -G"
-  alias l="exa -lah"
-  alias lh="exa -ld .?*" # list only hidden files
+  alias ll="eza -lG"
+  alias la="eza -alG"
+  alias ls="eza -G"
+  alias l="eza -lah"
+  alias lh="eza -ld .?*" # list only hidden files
 fi
 
 alias c="clear"
